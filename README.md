@@ -14,6 +14,10 @@
 - Configure Thread Groups & Dataset (if needed)
 - Run the Test and Analyze Results
 
+## How to generate Report:
+Use the following command:
+- ```jmeter -n -t <test JMX file> -l <test log file> -e -o <Path to output folder>```
+
 
 # 📌 Project Overview
 ## 1️⃣ booking.jmx
@@ -35,12 +39,13 @@ This JMeter test plan includes:
 - Stress Testing 
     - 20 minutes
 
-## 
-This JMeter test plan simulates financial transactions with three different threads:
+##  This JMeter test plan simulates financial transactions with three different threads:
 
-- Deposit (Takes 10 Customers and 5 Agents data from deposit.csv)
-- Send Money (Takes 15 Customer data from sendMoney.csv)
-- Payment (Takes 5 Customers and 2 Merchant data from payment.csv)
+- Deposit _(Takes 10 Customers and 5 Agents data from deposit.csv)_
+- Send Money _(Takes 15 Customer data from sendMoney.csv)_
+- Payment _(Takes 5 Customers and 2 Merchant data from payment.csv)_
+
+***The required datasets are in Resources/ folder***
 
 # 📊 Test Results
 
