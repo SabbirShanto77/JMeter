@@ -61,7 +61,8 @@ This JMeter test plan includes:
 ![image](https://github.com/user-attachments/assets/a5cbc473-c959-4e33-9454-c1e0f5602d51)
 
 - Stress Report:
-![image](https://github.com/user-attachments/assets/94080bca-3356-432d-9a2d-951614266877)
+![image](https://github.com/user-attachments/assets/c22d223e-ee4d-4be6-980b-f02d65d61a3b)
+
 
 
 ## 2️⃣ dmoney.jmx
